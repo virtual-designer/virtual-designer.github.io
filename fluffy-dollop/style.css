@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Sans-Serif;
+}
+body {
+	height: 100vh;
+	background: #262626;
+	position: relative;
+}
+.btn {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: #fff;
+	font-size: 1em;
+	padding: 10px 25px;
+	transition: 0.4s;
+	transition-delay: 1s;
+	overflow: hidden;
+}
+
+.btn span {
+	position: absolute;
+	transition: 0.3s;
+}
+
+.btn:hover {
+	background: #0b82f9;
+	box-shadow: 0 0 8px 5px #0b82f9;
+}
+
+.btn span:nth-child(1){
+	background: linear-gradient(to bottom, #0b82f9, transparent);
+	height: 100%;
+	width: 2px;
+	top: 100%;
+	left: 0;
+}
+.btn:hover span:nth-child(1){
+	height: 100%;
+	width: 2px;
+	top: 0;
+	left: 0;
+}
+
+
+.btn span:nth-child(2){
+	background: linear-gradient(to left, #0b82f9, transparent);
+	width: 100%;
+	height: 2px;
+	left: -100%;
+	top: 0;
+	transition-delay: 0.3s;
+}
+
+.btn:hover span:nth-child(2){
+	width: 100%;
+	height: 2px;
+	left: 0;
+	top: 0;
+}
+
+.btn span:nth-child(3){
+	background: linear-gradient(to top, #0b82f9, transparent);
+	width: 2px;
+	height: 100%;
+	top: -100%;
+  right: 0;
+	transition-delay: 0.6s;
+}
+
+.btn:hover span:nth-child(3){
+	width: 2px;
+	height: 100%;
+	top: 0;
+  right: 0;
+}
+
+.btn span:nth-child(4){
+	background: linear-gradient(to right, #0b82f9, transparent);
+	width: 100%;
+	height: 2px;
+	bottom: 0;
+  right: -100%;
+	transition-delay: 0.9s;
+}
+
+.btn:hover span:nth-child(4){
+	width: 100%;
+	height: 2px;
+	bottom: 0;
+  right: 0;
+}
