@@ -20,12 +20,7 @@ body {
   margin-bottom: 20px;
 }
 
-@media only screen and (max-width: 950px){
-  .intro h1,
-  .intro p {
-    text-align: center !important;
-  }
-}
+
 
 
 
