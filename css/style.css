@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  font-weight: 300 !important;
+}
+
+body {
+  min-height: 100vh;
+  background: #000;
+  color: #fff;
+  position: relative;
+}
+
+.avatar {
+  border-radius: 50%;
+}
+
+.navbar {
+  margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 950px){
+  .intro h1,
+  .intro p {
+    text-align: center !important;
+  }
+}
+
+
+
+
+
+
