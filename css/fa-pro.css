@@ -1,0 +1,55 @@
+/**
+*  Font Awesome Pro Icons CSS
+*  Do not copy this file.
+*/
+
+.fas {
+  font-family: "fa-solid" !important;
+}
+
+.fab {
+  font-family: "fa-brands" !important;
+}
+
+.far {
+  font-family: "fa-regular" !important;
+}
+
+.fal {
+  font-family: "fa-light" !important;
+}
+
+@font-face {
+  font-family: "fa-light";
+  src: url(../webfonts/fa-light-300.woff2);
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "fa-brands";
+  src: url(../webfonts/fa-brands-400.woff2);
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "fa-regular";
+  src: url(../webfonts/fa-regular-400.woff2);
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "fa-solid";
+  src: url(../webfonts/fa-solid-900.woff2);
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "fa-light-pro";
+  src: url(../webfonts/pro/fa-light-300.woff2);
+  font-weight: 300;
+  font-style: normal;
+}
