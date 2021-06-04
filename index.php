@@ -1,38 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Ar Rakin (rakinar2 | virtual-designer) - Personal Portfolio</title>
-  <meta name="google-site-verification" content="rVhKmgB0idHMoWl9bGTACbKdTGuMmeZKUJEj2Dr0H5E">
-  <link rel="prefetch" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  <link rel="prefetch" href="/me.min.jpg">
-  <link rel="icon" href="/me.min.jpg">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  <link rel="stylesheet" href="/css/all.min.css">
-  <link rel="stylesheet" href="/css/font-awesome.css">
-  <link rel="stylesheet" href="/css/fa-pro.css">
-  <link rel="stylesheet" href="/css/fontawesome.css">
-  <link rel="stylesheet" href="/css/style.css">
-</head>
-<body>
-  <nav class="navbar navbar-expand-md navbar-dark bg-dark">
-    <a href="/" class="navbar-brand">Ar's Portfolio</a>
-    <button class="navbar-toggler" style="border:0" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="fal fa-bars"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
-        <li class="nav-item active">
-          <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/portfolio/1.html">Portfolio</a>
-        </li>
-      </ul>
-    </div>
-  </nav>  <div class="container">
+<?php
+  $TITLE = $home = htmlspecialchars("Ar Rakin (rakinar2 | virtual-designer) - Personal Portfolio");
+  include("header.php");
+?>
+  <div class="container">
     <div class="row">
       <div class="col-md">
         <img src="https://cdn.onecloudnet.ml/root/images/me.min.jpg" alt="Avatar" class="img-fluid avatar mb-3">
@@ -106,20 +76,4 @@
       </div>
     </div>
   </div>
-    <div class="pt-3 px-3 pb-2 bg-dark">
-      <div>
-        <ul class="nav flex-column mb-0 pb-2">
-          <li class="nav-item"><i class="fal fa-map-marker-alt mr-2 text-light"></i>Dhaka, Bangladesh</li>
-          <li class="nav-item"><i class="fal fa-envelope mr-2 text-light"></i>rakinar2@gmail.com</li>
-          <li class="nav-item"><i class="fab fa-instagram mr-2 text-light"></i><span style="color:#999">@</span>rakin3244</li>
-          <li class="nav-item"><i class="fab fa-discord mr-2 text-light"></i>rakinar2<small class="text-muted">#7578</small></li>
-        </ul>
-        <div class="my-2">
-          <p class="text-center">&copy; Ar Rakin 2021</p>
-        </div>
-      </div>
-    </div>
-  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
-</body>
-</html>
+<?php include("footer.php"); ?>
