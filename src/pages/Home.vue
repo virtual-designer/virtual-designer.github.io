@@ -72,14 +72,6 @@ import Divider from "../components/Divider.vue";
             </div>
         </div>
 
-        <div class="row pt-5">
-            <div class="col">
-                <h2>About My Organization</h2>
-                <Divider width="120px" />
-                <p>At the end of 2020, I founded "OneCloudNet" for promoting open-source software development. Later at 2021, I founded "OneSoftNet" (A. K. A. OSN) which is a sub-organization of OneCloudNet. OSN is a software foundation that promotes and builds free and open source software projects. Now in these days, we're doing very well in our work.</p>
-            </div>
-        </div>
-
         <br>
         <br>
         <br>
