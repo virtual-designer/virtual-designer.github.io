@@ -48,7 +48,7 @@ import Divider from "../components/Divider.vue";
                             </li>
                             <li class="list-group-item">
                                 <a href="https://discord.gg/spotify">
-                                    <i class="fab fa-discord"></i> Discord (rakinar2#7578)
+                                    <i class="fab fa-discord"></i> Discord (@rakinar2)
                                 </a>
                             </li>
                             <li class="list-group-item">
