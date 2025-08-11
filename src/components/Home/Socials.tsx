@@ -8,8 +8,7 @@ export default function Socials() {
         <div className="mx-auto rounded-2xl p-5 flex justify-center gap-2">
             <Button
                 isIconOnly
-                href="https://github.com/virtual-designer"
-                target="_blank"
+                onClick={() => location.replace("https://github.com/virtual-designer")}
                 color="primary"
                 variant="flat"
             >
@@ -18,8 +17,7 @@ export default function Socials() {
 
             <Button
                 isIconOnly
-                href="https://discord.com/users/774553653394538506"
-                target="_blank"
+                onClick={() => location.replace("https://discord.com/users/774553653394538506")}
                 color="primary"
                 variant="flat"
             >
@@ -28,7 +26,7 @@ export default function Socials() {
 
             <Button
                 isIconOnly
-                href="mailto:rakinar2@onesoftnet.eu.org"
+                onClick={() => location.replace("mailto:rakinar2@onesoftnet.eu.org")}
                 color="primary"
                 variant="flat"
             >
