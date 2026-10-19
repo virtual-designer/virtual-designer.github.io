@@ -22,10 +22,6 @@ const menuItems = [
         title: "About",
         href: "/about",
     },
-    {
-        title: "Contact",
-        href: "/contact",
-    },
 ];
 
 export default function Navbar() {
